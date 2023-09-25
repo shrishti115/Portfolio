@@ -714,7 +714,7 @@ svg#freepik_stories-questions.animated
 
 
 .projects__footer>i{
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--first-color);
   cursor: pointer;
   transition: 0.3s;
@@ -725,7 +725,7 @@ svg#freepik_stories-questions.animated
 }
 
 .projects__footer>a{
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--first-color);
   cursor: pointer;
   transition: 0.3s;
@@ -947,9 +947,17 @@ svg#freepik_stories-questions.animated
    
   }
   .about{
-    margin-top:15px;
+    margin-top:5rem;
   }
 
+
+  .projects__content{
+    font-size: 12px;;
+  }
+
+  .projects__footer>a{
+    font-size: 14px;
+  }
 
   .about__data{
     display: flex;
