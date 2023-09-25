@@ -759,28 +759,7 @@ svg#freepik_stories-questions.animated
 }
 
 
-@media screen and (max-width:468px){
-  .contact__form{
-    width: 300px;
-    height: 500px;
-   
-  }
 
-  .contact__input>input , .contact__input>textarea{
-    width: 90%;
-  }
-}
-
-@media screen and (max-width:500px){
-  .contact__form{
-    width: 400px;
-    height: 500px;
-  }
-
-  .contact__input>input , .contact__input>textarea{
-    width: 90%;
-  }
-}
 
   
 
@@ -1082,7 +1061,28 @@ margin-top: 25px;
   
 }
 
+@media screen and (max-width:468px){
+  .contact__form{
+    width: 300px;
+    height: 500px;
+   
+  }
 
+  .contact__input>input , .contact__input>textarea{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width:470px) and (max-width:500px){
+  .contact__form{
+    width: 400px;
+    height: 500px;
+  }
+
+  .contact__input>input , .contact__input>textarea{
+    width: 90%;
+  }
+}
 
 
 
